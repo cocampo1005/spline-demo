@@ -12,7 +12,7 @@
     justify-content: center;
 
     @include desktop {
-        justify-content: flex-start;
+        justify-content: space-between;
         padding: 2rem;
     }
     &__logo {
@@ -21,6 +21,35 @@
 
         @include desktop {
             width: 80px;
+        }
+    }
+
+    &__cont {
+        &1 {
+            display: flex;
+        }
+
+        &2 {
+            display: flex;
+            font-size: 1.5rem;
+            padding-bottom: 2rem;
+            padding-right: 1rem;
+            gap: 2rem;
+
+            &-link {
+                color: white;
+            }
+
+            &-text {
+                font-weight: 500;
+                &:hover {
+                    color: rgb(232, 29, 178);
+                    cursor: pointer;
+                }
+                &:active {
+                    color: rgb(156, 20, 119);
+                }
+            }
         }
     }
 }
