@@ -1,3 +1,4 @@
+import "./Games.scss";
 import Spline from "@splinetool/react-spline";
 
 function Games() {
