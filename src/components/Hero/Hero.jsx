@@ -1,5 +1,4 @@
 import "./Hero.scss";
-import React from "react";
 import Spline from "@splinetool/react-spline";
 
 export default function Hero() {

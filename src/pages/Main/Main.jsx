@@ -6,6 +6,7 @@ function Main() {
     return (
         <>
             <Hero />
+            <Spline scene="https://prod.spline.design/lu8sHaP7Uu8et83R/scene.splinecode" />
             <LightSwitch />
             <Spline scene="https://prod.spline.design/bo5jJl9HftOKccWY/scene.splinecode" />
         </>
