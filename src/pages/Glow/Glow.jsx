@@ -1,6 +1,6 @@
 import Clones from "../../components/Clones/Clones";
 import GlowOrb from "../../components/GlowOrb/GlowOrb";
-import Spline from '@splinetool/react-spline';
+import Spline from "@splinetool/react-spline";
 
 function Glow() {
     return (
